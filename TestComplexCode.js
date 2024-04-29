@@ -17,7 +17,7 @@ class NeuralNetwork {
       this.biasOutput.randomize();
   
       // Learning rate
-      this.learningRate = 0.1;
+      this.learningRate = 0.4;
     }
   
     train(inputsArray, targetsArray) {
